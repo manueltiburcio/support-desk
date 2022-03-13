@@ -1,5 +1,4 @@
-const mongoose = require('mongoose');
-const { StringDecoder } = require('string_decoder');
+const mongoose = require('mongoose')
 
 const noteSchema = mongoose.Schema(
   {
@@ -28,6 +27,6 @@ const noteSchema = mongoose.Schema(
   {
     timestamps: true,
   }
-);
+)
 
-module.exports = mongoose.model('Note', noteSchema);
+module.exports = mongoose.model('Note', noteSchema)
